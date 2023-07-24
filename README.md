@@ -28,7 +28,7 @@ Assign the below variable `number` to the number `42` by replacing `None` with `
 
 
 ```python
-number = None
+number = 42
 number
 ```
 
@@ -36,13 +36,19 @@ Next, like the above, reassign the `flatiron_mantra` variable with the string `"
 
 
 ```python
-flatiron_mantra = None
+flatiron_mantra = "Change Things"
 flatiron_mantra
 ```
 
 Add a new markdown cell below this one and type `### This is a new header`
 
+### This is a new header
+
 Now add a new code cell below this one and write whatever code you want to write.
+
+```python
+a = 2
+```
 
 As you can see, this works just the same as editing Jupyter notebooks using cloud tools, only now it's on your computer.
 
